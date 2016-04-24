@@ -10,6 +10,6 @@ function setup() {
 }
 
 function draw() {
-  image(capture, 0, 0, width, width* capture.height / capture.width);
-  filter(INVERT);
+  //image(capture, 0, 0, width, width * capture.height / capture.width);
+  //filter(INVERT);
 }
